@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="se">
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap" rel="stylesheet">
+    <title>Forside</title>
+</head>
+
+<body>
+    <div id="first_section">
+        <header>
+            <!-- BURGERMENU -->
+            <div class="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav class="navbar">
+                <div id="home"><a href="index.html">Portfolio</a></div>
+                <div id="tema2"><a href="tema2.html">Tema 2</a></div>
+                <div id="tema3"><a href="tema3.html">Tema 3</a></div>
+                <div id="tema4"><a href="tema4.html">Tema 4</a></div>
+                <div id="tema5"><a href="tema5.html">Tema 5</a></div>
+                <div id="ommig"><a href="ommig.html">Om mig</a></div>
+            </nav>
+        </header>
+    </div>
+    <div class="namn">
+        <h1>Nora Skjevik</h1>
+    </div>
+    <div class="namn2">
+        <h2>Ett portfolio</h2>
+    </div>
+    <main>
+
+        <button id="tillToppenBtn" onclick="scrollToTop()" style="display: none;"><img src="images/pil.svg"
+                alt=""></button>
+
+        <section id="second_section">
+            <div>
+                <h1>Om mig</h1>
+                <h2>Nora Skjevik</h2>
+                <p>
+                    Mitt namn är Nora Skjevik, jag är 23 år, jag älskar hundar och studerar multimediadesign på KEA. Jag
+                    är ursprungligen från Göteborg. Men, för 1,5 år sedan flyttade jag till hit till Köpenhamn med målet
+                    att vidga mina vyer. </p>
+                <p><a href="ommig.html">Läs mer.</p></a>
+            </div>
+            <div><a href="ommig.html"><img src="images/nora.webp" alt="självporträtt" /></a></div>
+        </section>
+
+        <section id="third_section">
+            <div>
+                <h1>Mina projekt</h1>
+            </div>
+            <div id="projekter">
+                <div>
+                    <h2>Grundläggende web</h2>
+                    <a href="tema2.html"><img src="images/projekt1.webp" alt="projekt1" /></a>
+
+                    <p>
+                        Här kan du läsa om Tema 2, där jag lärde mig grundläggande metoder, program och tekniker som har
+                        varit avgörande för de andra temana. Du kan också hitta den första uppgiften jag lämnade in.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Grundläggende UX/UI</h2>
+                    <a href="tema3.html"> <img src="images/projekt2.webp" alt="projekt2" /></a>
+
+                    <p>
+                        Läs här om Tema 3, där jag lärde mig mycket om hur man ger den optimala användarupplevelsen vid
+                        utvecklingen av en prototyp. Du kan också hitta den prototyp jag lämnade in.
+                    </p>
+
+                </div>
+
+                <div>
+                    <h2>Animation</h2>
+                    <a href="tema4.html"> <img src="images/04_an.svg" alt="projekt3" /></a>
+
+                    <p>
+                        Här kan du läsa om hur jag utvecklade mitt helt egna animerade spel under Tema 4. Du kan också
+                        läsa om min långa process i utvecklingen av spelet, både visuellt och interaktivt.
+                    </p>
+
+                </div>
+
+                <div>
+                    <h2>Grundläggende innehåll</h2>
+                    <a href="tema5.html"><img src="images/projekt4.webp" alt="projekt4" /></a>
+                    <p>
+                        Här kan du läsa om de två projekt jag lämnade in under Tema 5, som
+                        huvudsakligen arbetades fram
+                        i grupp. Läs också om hur jag arbetade med videoproduktion och re-design av ett företags
+                        webbplats.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Lavet af Nora Skjevik</p>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

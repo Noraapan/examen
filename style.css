@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+body {
+  background-color: #acb896;
+}
+main {
+  margin: 50px;
+}
+/* header */
+header {
+  position: sticky;
+  top: 0;
+}
+header nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  gap: 5px;
+  overflow-x: auto;
+}
+header a {
+  flex-shrink: 0;
+}
+/*hemknapp*/
+#home {
+  padding: 5px;
+  align-items: center;
+  margin-inline-end: auto;
+}
+/*menyknapparna*/
+#first_section a,
+#first_section2 a {
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  color: #fff1b4;
+  margin: 30px;
+  font-size: 25px;
+  cursor: pointer;
+}
+#first_section a:hover,
+#first_section2 a:hover {
+  color: #303626;
+}
+/*text*/
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  color: #d00000;
+  margin: 30px;
+}
+a {
+  text-decoration: none;
+  font-family: "Martel", serif;
+  font-size: 15px;
+  color: #303626;
+  margin: 20px;
+  line-height: 1.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+a:hover {
+  color: #fff1b4;
+}
+h2 {
+  font-family: "Lora", serif;
+  font-size: 30px;
+  margin: 30px;
+  color: #fff1b4;
+}
+
+p {
+  font-family: "Martel", serif;
+  font-size: 15px;
+  color: #303626;
+  margin: 20px;
+  line-height: 1.5rem;
+}
